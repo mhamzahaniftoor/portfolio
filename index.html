@@ -1,0 +1,1429 @@
+<html lang="en" class="scroll-smooth"><head>
+    <link rel="icon" href="./resources/logo.png" type="image/jpeg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="description" content="Portfolio of Muhammad Hamza Hanif Toor, a Software Engineer specializing in Python backend development with Django, FastAPI, Flask, and experience in LLMs, LangChain &amp; RAG.">
+    <meta name="theme-color" content="#ffffff">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="robots" content="">
+
+    <!-- Alpine.js - Load first -->
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/alpinejs/3.13.3/cdn.min.js"></script>
+    
+    <!-- Font Links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+
+    <title>Muhammad Hamza Hanif Toor | Full Stack Developer | ROR, ReactJs </title>
+    <!-- SEO Description -->
+    <meta name="description" content="Portfolio of Muhammad Hamza Hanif Toor, a Software Engineer specializing in Python backend development with Django, FastAPI, Flask, and experience in LLMs, LangChain &amp; RAG.">
+
+    <!-- Performance optimization: Preload critical resources -->
+    <link rel="preload" href="https://cdn.tailwindcss.com" as="script">
+    
+    <!-- Core CSS and Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/apexcharts/3.45.1/apexcharts.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Project-specific styles -->
+    <style>
+      /* Base styles */
+      :root {
+        --primary-color: #3498db;
+        --secondary-color: #2c3e50;
+        --accent-color: ;
+      }
+
+      /* Strict no-scrollbar rules */
+      * {
+        -ms-overflow-style: none !important;  /* IE and Edge */
+        scrollbar-width: none !important;     /* Firefox */
+      }
+      *::-webkit-scrollbar {
+        display: none !important;             /* Chrome, Safari and Opera */
+      }
+
+      /* Typography */
+      h1, h2, h3, h4, h5, h6 {
+        font-family: Sora, Inter, system-ui, sans-serif;
+      }
+      body {
+        font-family: DM Sans, Inter, system-ui, sans-serif;
+      }
+
+      /* Interactive elements */
+      .interactive-element {
+        transition: all 0.3s ease;
+      }
+      .interactive-element:hover {
+        transform: translateY(-2px);
+      }
+
+      /* Custom scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+      }
+
+      /* Animations */
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      .fade-in {
+        animation: fadeIn 0.5s ease-in-out;
+      }
+    </style>
+
+    <!-- Dynamic Meta Tags -->
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="robots" content="">
+    <meta property="og:title" content="">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:site_name" content="Muhammad Hamza Hanif Toor - Software Engineer Portfolio">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="">
+
+    <!-- Header Scripts -->
+    <script id="header-scripts">
+      // This script tag will be replaced with actual scripts.head content
+      if (window.scripts && window.scripts.head) {
+        document.getElementById('header-scripts').outerHTML = window.scripts.head;
+      }
+    </script>
+
+    <!-- Project Configuration -->
+    <script>
+      window.projectConfig = {
+        name: 'Muhammad Hamza Hanif Toor - Software Engineer Portfolio',
+        type: '',
+        settings: {
+          colors: {
+            primary: '#3498db',
+            secondary: '#2c3e50',
+            accent: ''
+          },
+          fonts: {
+            primary: 'Sora',
+            secondary: 'DM Sans'
+          }
+        }
+      };
+    </script>
+ <style>
+      [data-section-id] {
+        display: none;
+      }
+      [data-section-id]:first-child {
+        display: block;
+      }
+    </style>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400..700;1,400..700&amp;display=swap" rel="stylesheet">
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border-width:0}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-inset-1{inset:-0.25rem}.inset-0{inset:0px}.-left-3{left:-0.75rem}.right-4{right:1rem}.top-0{top:0px}.top-4{top:1rem}.z-50{z-index:50}.order-1{order:1}.order-2{order:2}.mx-4{margin-left:1rem;margin-right:1rem}.mx-auto{margin-left:auto;margin-right:auto}.mb-1{margin-bottom:0.25rem}.mb-10{margin-bottom:2.5rem}.mb-12{margin-bottom:3rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:0.5rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-1{margin-left:0.25rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-10{margin-top:2.5rem}.mt-16{margin-top:4rem}.mt-3{margin-top:0.75rem}.mt-4{margin-top:1rem}.mb-3{margin-bottom:0.75rem}.mr-3{margin-right:0.75rem}.mt-0\.5{margin-top:0.125rem}.mt-12{margin-top:3rem}.mt-8{margin-top:2rem}.block{display:block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-1{height:0.25rem}.h-2{height:0.5rem}.h-48{height:12rem}.h-5{height:1.25rem}.h-6{height:1.5rem}.h-auto{height:auto}.h-full{height:100%}.h-16{height:4rem}.h-2\.5{height:0.625rem}.h-3{height:0.75rem}.h-8{height:2rem}.max-h-\[90vh\]{max-height:90vh}.min-h-screen{min-height:100vh}.w-20{width:5rem}.w-5{width:1.25rem}.w-6{width:1.5rem}.w-full{width:100%}.w-16{width:4rem}.w-2{width:0.5rem}.w-3{width:0.75rem}.w-8{width:2rem}.max-w-4xl{max-width:56rem}.max-w-lg{max-width:32rem}.flex-1{flex:1 1 0%}.transform{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.resize-none{resize:none}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-10{gap:2.5rem}.gap-12{gap:3rem}.gap-2{gap:0.5rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.gap-3{gap:0.75rem}.space-x-8 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(2rem * var(--tw-space-x-reverse));margin-left:calc(2rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-1 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.25rem * var(--tw-space-y-reverse))}.space-y-10 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2.5rem * var(--tw-space-y-reverse))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-8 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem * var(--tw-space-y-reverse))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-3 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.75rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.space-y-6 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.scroll-smooth{scroll-behavior:smooth}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.rounded-md{border-radius:0.375rem}.border{border-width:1px}.border-4{border-width:4px}.border-l-2{border-left-width:2px}.border-t{border-top-width:1px}.border-b{border-bottom-width:1px}.border-l-4{border-left-width:4px}.border-blue-200{--tw-border-opacity:1;border-color:rgb(191 219 254 / var(--tw-border-opacity, 1))}.border-blue-500{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.border-gray-200{--tw-border-opacity:1;border-color:rgb(229 231 235 / var(--tw-border-opacity, 1))}.border-white{--tw-border-opacity:1;border-color:rgb(255 255 255 / var(--tw-border-opacity, 1))}.border-blue-600{--tw-border-opacity:1;border-color:rgb(37 99 235 / var(--tw-border-opacity, 1))}.border-gray-300{--tw-border-opacity:1;border-color:rgb(209 213 219 / var(--tw-border-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-blue-100{--tw-bg-opacity:1;background-color:rgb(219 234 254 / var(--tw-bg-opacity, 1))}.bg-blue-500{--tw-bg-opacity:1;background-color:rgb(59 130 246 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-gray-100{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-300{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-green-100{--tw-bg-opacity:1;background-color:rgb(220 252 231 / var(--tw-bg-opacity, 1))}.bg-green-600{--tw-bg-opacity:1;background-color:rgb(22 163 74 / var(--tw-bg-opacity, 1))}.bg-indigo-100{--tw-bg-opacity:1;background-color:rgb(224 231 255 / var(--tw-bg-opacity, 1))}.bg-purple-100{--tw-bg-opacity:1;background-color:rgb(243 232 255 / var(--tw-bg-opacity, 1))}.bg-purple-600{--tw-bg-opacity:1;background-color:rgb(147 51 234 / var(--tw-bg-opacity, 1))}.bg-red-100{--tw-bg-opacity:1;background-color:rgb(254 226 226 / var(--tw-bg-opacity, 1))}.bg-yellow-100{--tw-bg-opacity:1;background-color:rgb(254 249 195 / var(--tw-bg-opacity, 1))}.bg-yellow-500{--tw-bg-opacity:1;background-color:rgb(234 179 8 / var(--tw-bg-opacity, 1))}.bg-opacity-50{--tw-bg-opacity:0.5}.bg-gradient-to-r{background-image:linear-gradient(to right, var(--tw-gradient-stops))}.bg-gradient-to-t{background-image:linear-gradient(to top, var(--tw-gradient-stops))}.from-black\/70{--tw-gradient-from:rgb(0 0 0 / 0.7) var(--tw-gradient-from-position);--tw-gradient-to:rgb(0 0 0 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-400{--tw-gradient-from:#60a5fa var(--tw-gradient-from-position);--tw-gradient-to:rgb(96 165 250 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.from-blue-50{--tw-gradient-from:#eff6ff var(--tw-gradient-from-position);--tw-gradient-to:rgb(239 246 255 / 0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from), var(--tw-gradient-to)}.to-indigo-50{--tw-gradient-to:#eef2ff var(--tw-gradient-to-position)}.to-indigo-500{--tw-gradient-to:#6366f1 var(--tw-gradient-to-position)}.to-transparent{--tw-gradient-to:transparent var(--tw-gradient-to-position)}.object-cover{object-fit:cover}.p-2{padding:0.5rem}.p-3{padding:0.75rem}.p-6{padding:1.5rem}.p-4{padding:1rem}.p-8{padding:2rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-4{padding-left:1rem;padding-right:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-20{padding-top:5rem;padding-bottom:5rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-2\.5{padding-top:0.625rem;padding-bottom:0.625rem}.pb-16{padding-bottom:4rem}.pb-3{padding-bottom:0.75rem}.pl-8{padding-left:2rem}.pt-2{padding-top:0.5rem}.pt-24{padding-top:6rem}.pt-8{padding-top:2rem}.pb-2{padding-bottom:0.5rem}.pl-16{padding-left:4rem}.pl-4{padding-left:1rem}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-base{font-size:1rem;line-height:1.5rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.font-bold{font-weight:700}.font-medium{font-weight:500}.font-semibold{font-weight:600}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-blue-800{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-green-500{--tw-text-opacity:1;color:rgb(34 197 94 / var(--tw-text-opacity, 1))}.text-green-600{--tw-text-opacity:1;color:rgb(22 163 74 / var(--tw-text-opacity, 1))}.text-green-700{--tw-text-opacity:1;color:rgb(21 128 61 / var(--tw-text-opacity, 1))}.text-indigo-600{--tw-text-opacity:1;color:rgb(79 70 229 / var(--tw-text-opacity, 1))}.text-purple-600{--tw-text-opacity:1;color:rgb(147 51 234 / var(--tw-text-opacity, 1))}.text-red-600{--tw-text-opacity:1;color:rgb(220 38 38 / var(--tw-text-opacity, 1))}.text-red-700{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.text-yellow-600{--tw-text-opacity:1;color:rgb(202 138 4 / var(--tw-text-opacity, 1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.opacity-75{opacity:0.75}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgb(0 0 0 / 0.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.outline-none{outline:2px solid transparent;outline-offset:2px}.blur-md{--tw-blur:blur(12px);filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-colors{transition-property:color, background-color, border-color, fill, stroke, -webkit-text-decoration-color;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, -webkit-text-decoration-color;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.hover\:scale-105:hover{--tw-scale-x:1.05;--tw-scale-y:1.05;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:scale-\[1\.02\]:hover{--tw-scale-x:1.02;--tw-scale-y:1.02;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:transform:hover{transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-200:hover{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-50:hover{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.hover\:bg-blue-600:hover{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.hover\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.hover\:text-gray-700:hover{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.hover\:text-gray-900:hover{--tw-text-opacity:1;color:rgb(17 24 39 / var(--tw-text-opacity, 1))}.hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.focus\:not-sr-only:focus{position:static;width:auto;height:auto;padding:0;margin:0;overflow:visible;clip:auto;white-space:normal}.focus\:absolute:focus{position:absolute}.focus\:left-0:focus{left:0px}.focus\:top-0:focus{top:0px}.focus\:z-50:focus{z-index:50}.focus\:border-blue-500:focus{--tw-border-opacity:1;border-color:rgb(59 130 246 / var(--tw-border-opacity, 1))}.focus\:bg-white:focus{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.focus\:p-4:focus{padding:1rem}.focus\:text-black:focus{--tw-text-opacity:1;color:rgb(0 0 0 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-inset:focus{--tw-ring-inset:inset}.focus\:ring-gray-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(107 114 128 / var(--tw-ring-opacity, 1))}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity, 1))}.focus\:ring-opacity-50:focus{--tw-ring-opacity:0.5}@media (min-width: 640px){.sm\:px-3{padding-left:0.75rem;padding-right:0.75rem}}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:mt-20{margin-top:5rem}.md\:block{display:block}.md\:flex{display:flex}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:w-2\/5{width:40%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:flex-row{flex-direction:row}.md\:pb-24{padding-bottom:6rem}.md\:pt-32{padding-top:8rem}.md\:text-2xl{font-size:1.5rem;line-height:2rem}.md\:text-4xl{font-size:2.25rem;line-height:2.5rem}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:order-1{order:1}.lg\:order-2{order:2}.lg\:mb-0{margin-bottom:0px}.lg\:w-1\/2{width:50%}.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.lg\:grid-cols-6{grid-template-columns:repeat(6, minmax(0, 1fr))}.lg\:flex-row{flex-direction:row}.lg\:text-6xl{font-size:3.75rem;line-height:1}}@media (prefers-color-scheme: dark){.dark\:bg-gray-700{--tw-bg-opacity:1;background-color:rgb(55 65 81 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.dark\:bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39 / var(--tw-bg-opacity, 1))}.dark\:text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.dark\:text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235 / var(--tw-text-opacity, 1))}.dark\:text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219 / var(--tw-text-opacity, 1))}.dark\:text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.dark\:text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}}</style><style type="text/css">
+@font-face {
+  font-family: 'Atlassian Sans';
+  font-style: normal;
+  font-weight: 400 653;
+  font-display: swap;
+  src:
+      url('chrome-extension://liecbddmkiiihnedobmlmillhodjkdmb/fonts/AtlassianSans-latin.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+      U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}</style><link href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/inject.css" rel="stylesheet" type="text/css" data-apio="true"><link data-apio="true" rel="stylesheet" type="text/css" href="chrome-extension://alhgpfoeiimagjlnfekdhkjlkiomcapa/js/css/a_chrome-extension_inject_global_module_scss.css"></head>
+ <body class="antialiased text-gray-800 min-h-screen flex flex-col" cz-shortcut-listen="true">
+    <!-- Skip to main content link for accessibility -->
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:z-50 focus:p-4 focus:bg-white focus:text-black">
+       Skip to main content
+    </a>
+
+    <!-- Main content area -->
+    <main id="main-content" class="flex-1 relative h-full">
+      <mountpoint><div id="RolloutPageContent">
+<div id="root">
+<header id="header" class="bg-white shadow-md fixed w-full z-50">
+  <div class="container mx-auto px-4">
+    <nav class="flex items-center justify-between py-4">
+      <div class="flex items-center">
+        <a href="#" class="text-xl font-bold text-gray-800">Portfolio</a>
+      </div>
+      
+      <!-- Desktop Navigation -->
+      <div class="hidden md:flex space-x-8">
+        <a href="#about" class="text-gray-600 hover:text-gray-900 transition-colors">About</a>
+        <a href="#experience" class="text-gray-600 hover:text-gray-900 transition-colors">Experience</a>
+        <a href="#projects" class="text-gray-600 hover:text-gray-900 transition-colors">Projects</a>
+        <a href="#skills" class="text-gray-600 hover:text-gray-900 transition-colors">Skills</a>
+        <a href="#education" class="text-gray-600 hover:text-gray-900 transition-colors">Education</a>
+        <a href="#contact" class="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
+      </div>
+      
+      <!-- Mobile Menu Button -->
+      <button id="mobile-menu-button" class="md:hidden p-2 rounded-md text-gray-600 hover:text-gray-900 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500" aria-expanded="false" aria-label="Open main menu">
+        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        </svg>
+      </button>
+    </nav>
+    
+    <!-- Mobile Menu, hidden by default -->
+    <div id="mobile-menu" class="md:hidden hidden">
+      <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+        <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">About</a>
+        <a href="#experience" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Experience</a>
+        <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Projects</a>
+        <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Skills</a>
+        <a href="#education" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Education</a>
+        <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">Contact</a>
+        
+        <!-- Mobile Theme Toggle -->
+        <button id="mobile-theme-toggle" class="mt-4 w-full flex items-center px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-gray-900 hover:bg-gray-50">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+          Toggle Theme
+        </button>
+      </div>
+    </div>
+  </div>
+</header>
+</div>
+
+
+<div id="root">
+<section id="hero" class="pt-24 pb-16 md:pt-32 md:pb-24 bg-gray-300 from-blue-50 to-indigo-50">
+  <div class="container mx-auto px-4">
+    <div class="flex flex-col md:flex-row items-center justify-between">
+      <div class="w-full md:w-1/2 mb-10 md:mb-0">
+        <h6 class="text-2xl md:text-5xl lg:text-6xl font-bold text-gray-800 mb-4">
+          Muhammad Hamza Hanif Toor
+        </h6>
+
+        <p class="text-gray-600 mb-8 max-w-lg">
+          I'm Muhammad Hamza Hanif Toor, a Software Engineer with 3+ years of experience in full-stack development using Ruby on Rails, React.js, and PostgreSQL. I build scalable web apps, integrate AI and third-party services, and focus on clean, maintainable code. Passionate about solving real-world problems with robust, user-friendly solutions
+
+        </p>
+        <div class="flex flex-wrap gap-4">
+          <a href="#contact" class="px-6 py-3 bg-blue-600 text-white font-medium rounded-lg shadow-md hover:bg-blue-700 transition-colors">
+            Get in Touch
+          </a>
+          <a href="./resources/cv.pdf" download="cv.pdf" class="px-6 py-3 bg-white text-blue-600 font-medium rounded-lg shadow-md border border-blue-200 hover:bg-gray-50 transition-colors">
+            Download CV
+          </a>
+        </div>
+      </div>
+      <div class="w-full md:w-2/5">
+        <div class="relative">
+          <div class="relative overflow-hidden rounded-full border-4 border-white shadow-lg w-48 h-48">
+            <img src="./resources/hamza.jpeg" alt="Muhammad Hamza Hanif Toor" class="w-full h-full object-cover">
+          </div>          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<div id="root">
+<section id="about" class="py-20 bg-white">
+  <div class="container mx-auto px-4">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4">About</h2>
+      <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+    </div>
+    
+    <div class="flex flex-col lg:flex-row items-center gap-12">
+      <div class="lg:w-1/2 order-2 lg:order-1">
+        <h3 class="text-2xl font-bold text-gray-800 mb-4">Who I Am</h3>
+        <p class="text-gray-600 mb-6">
+          I'm Muhammad Hamza Hanif Toor, a Software Engineer with 3+ years of experience in full-stack development using Ruby on Rails, React.js, and PostgreSQL. I build scalable web apps, integrate AI and third-party services, and focus on clean, maintainable code. Passionate about solving real-world problems with robust, user-friendly solutions.
+        </p>
+        <p class="text-gray-600 mb-6">
+          I've recently worked with LLMs for building meeting summarizers using ChatGPT, LangChain, and RAG. I'm passionate about web scraping, backend architecture, and intelligent systems.
+        </p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-1">Backend Development</h4>
+              <p class="text-gray-600 text-sm">Scalable APIs and systems</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-1">Web Scraping</h4>
+              <p class="text-gray-600 text-sm">Data extraction at scale</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-1">AI Applications</h4>
+              <p class="text-gray-600 text-sm">LLMs, LangChain, RAG</p>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+              </svg>
+            </div>
+            <div>
+              <h4 class="font-semibold text-gray-800 mb-1">Data Pipelines</h4>
+              <p class="text-gray-600 text-sm">ETL and automation</p>
+            </div>
+          </div>
+        </div>
+        
+        <a href="#contact" class="inline-flex items-center text-blue-600 font-medium hover:text-blue-800 transition-colors">
+          Let's work together
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </a>
+      </div>
+      
+      <div class="lg:w-1/2 order-1 lg:order-2 mb-10 lg:mb-0">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div class="rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+            <img src="./resources/me.jpg" alt="Muhammad Hamza Hanif Toor" class="w-full h-full object-cover">
+          </div>
+          <div class="rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300 mt-10 md:mt-20">
+            <img src="./resources/download.jpeg" alt="Programming environment" class="w-full h-full object-cover">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+
+
+<section id="experience" class="py-16 bg-white dark:bg-gray-900">
+<div class="container mx-auto px-4">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800 dark:text-white">Work Experience</h2>
+  
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <!-- Left side: Experience timeline -->
+    <div class="space-y-10">
+      <!-- Experience 1 -->
+      <div class="relative pl-8 border-l-2 border-blue-500">
+        <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-500"></div>
+        <div class="mb-2">
+          <h3 class="text-xl font-bold text-gray-800 dark:text-white">Senior Software Engineer</h3>
+          <p class="text-blue-600 dark:text-blue-400 font-medium">Techcreatix</p>
+          <p class="text-gray-600 dark:text-gray-400 text-sm">Aug 2023 – Present</p>
+        </div>
+        <div class="space-y-2 text-gray-700 dark:text-gray-300">
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Designed and developed secure APIs using Ruby on Rails with robust testing and authentication
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Integrated third-party services like OpenAI, Facebook, and WhatsApp for AI and messaging capabilities
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Built Stripe integration for secure payments and managed real-time Webhook systems
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Improved UI interactivity using React.js and enhanced database modeling and performance
+          </p>
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">OpenAI</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Stripe</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Webhook</span>
+        </div>
+      </div>
+
+      <!-- Experience 2 -->
+      <div class="relative pl-8 border-l-2 border-blue-500">
+        <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-500"></div>
+        <div class="mb-2">
+          <h3 class="text-xl font-bold text-gray-800 dark:text-white">Software Engineer</h3>
+          <p class="text-blue-600 dark:text-blue-400 font-medium">CyberNest</p>
+          <p class="text-gray-600 dark:text-gray-400 text-sm">Jan 2023 – July 2023</p>
+        </div>
+        <div class="space-y-2 text-gray-700 dark:text-gray-300">
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Developed UI with React.js and managed back-end with Rails and PostgreSQL
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Integrated APIs including Classy and Wacom Digital Signatures
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Implemented background job processing using Sidekiq and Delayed Job
+          </p>
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Sidekiq</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Classy API</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Wacom</span>
+        </div>
+      </div>
+
+      <!-- Experience 3 -->
+      <div class="relative pl-8 border-l-2 border-blue-500">
+        <div class="absolute -left-3 top-0 w-6 h-6 rounded-full bg-blue-500"></div>
+        <div class="mb-2">
+          <h3 class="text-xl font-bold text-gray-800 dark:text-white">Software Developer</h3>
+          <p class="text-blue-600 dark:text-blue-400 font-medium">Blackstacks</p>
+          <p class="text-gray-600 dark:text-gray-400 text-sm">Dec 2021 – Dec 2022</p>
+        </div>
+        <div class="space-y-2 text-gray-700 dark:text-gray-300">
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Built and maintained full-stack features in Ruby on Rails, including authentication with Devise and email handling via SendGrid
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Developed responsive web UIs using HTML, CSS, JavaScript, and frameworks like Bootstrap, MUI, and React with Redux
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Ensured code quality and feature stability through RSpec testing
+          </p>
+          <p class="flex items-start">
+            <span class="text-blue-500 mr-2">•</span>
+            Managed real-time data with API integration and background processing using Sidekiq and Delayed Job
+          </p>
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Redux</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Devise</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">SendGrid</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">RSpec</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Sidekiq</span>
+          <span class="px-2 py-1 text-xs bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-full">Delayed Job</span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right side: Images and skills -->
+<div class="space-y-8">
+  <!-- Updated Image -->
+  <div class="rounded-lg overflow-hidden shadow-lg">
+    <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=1080&q=80" alt="Developer workspace" class="w-full h-auto object-cover">
+  </div>
+
+  <!-- Updated Skills Section -->
+  <div class="bg-gray-100 dark:bg-gray-800 p-6 rounded-lg shadow-md">
+    <h3 class="text-xl font-bold mb-4 text-gray-800 dark:text-white">Core Technologies</h3>
+
+    <!-- Ruby on Rails -->
+    <div class="mb-4">
+      <div class="flex justify-between mb-1">
+        <span class="text-gray-700 dark:text-gray-300 font-medium">Ruby on Rails</span>
+        <span class="text-gray-700 dark:text-gray-300">95%</span>
+      </div>
+      <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
+        <div class="bg-blue-600 h-2 rounded-full" style="width: 95%"></div>
+      </div>
+    </div>
+
+    <!-- React.js -->
+    <div class="mb-4">
+      <div class="flex justify-between mb-1">
+        <span class="text-gray-700 dark:text-gray-300 font-medium">React.js</span>
+        <span class="text-gray-700 dark:text-gray-300">85%</span>
+      </div>
+      <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
+        <div class="bg-blue-600 h-2 rounded-full" style="width: 85%"></div>
+      </div>
+    </div>
+
+    <!-- PostgreSQL -->
+    <div class="mb-4">
+      <div class="flex justify-between mb-1">
+        <span class="text-gray-700 dark:text-gray-300 font-medium">PostgreSQL</span>
+        <span class="text-gray-700 dark:text-gray-300">88%</span>
+      </div>
+      <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
+        <div class="bg-blue-600 h-2 rounded-full" style="width: 88%"></div>
+      </div>
+    </div>
+
+    <!-- OpenAI / AI APIs -->
+    <div class="mb-4">
+      <div class="flex justify-between mb-1">
+        <span class="text-gray-700 dark:text-gray-300 font-medium">OpenAI & AI APIs</span>
+        <span class="text-gray-700 dark:text-gray-300">80%</span>
+      </div>
+      <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
+        <div class="bg-blue-600 h-2 rounded-full" style="width: 80%"></div>
+      </div>
+    </div>
+
+    <!-- LangChain & LangGraph -->
+    <div>
+      <div class="flex justify-between mb-1">
+        <span class="text-gray-700 dark:text-gray-300 font-medium">LangChain & LangGraph</span>
+        <span class="text-gray-700 dark:text-gray-300">75%</span>
+      </div>
+      <div class="w-full bg-gray-300 dark:bg-gray-700 rounded-full h-2">
+        <div class="bg-blue-600 h-2 rounded-full" style="width: 75%"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</div>
+</section>
+
+
+<section id="projects" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Projects</h2>
+  
+  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+    <!-- Project 1: Nanokard -->
+    <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      <div class="relative h-48 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1642691213484-34b77c6d1d3d?auto=format&fit=crop&w=1080&q=80" alt="Nanokard" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <span class="text-white font-semibold px-4 py-2">Fintech • Blockchain</span>
+        </div>
+      </div>
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2 text-gray-800">Nanokard</h3>
+        <p class="text-gray-600 mb-4">Fintech app leveraging blockchain and Stripe for secure, high-speed payment processing and transaction transparency.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Blockchain</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Stripe</span>
+        </div>
+        <button class="project-details-btn text-blue-600 hover:text-blue-800 font-medium flex items-center" data-project="nanokard">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    
+    <!-- Project 2: Gueswi Chatwoot -->
+    <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      <div class="relative h-48 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1581093588401-5a4f39a61c1f?auto=format&fit=crop&w=1080&q=80" alt="Gueswi Chatwoot" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <span class="text-white font-semibold px-4 py-2">Customer Support • SaaS</span>
+        </div>
+      </div>
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2 text-gray-800">Gueswi Chatwoot</h3>
+        <p class="text-gray-600 mb-4">Self-hosted Chatwoot clone enabling businesses to manage multichannel customer conversations with Stripe billing support.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Stripe</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Webhooks</span>
+        </div>
+        <button class="project-details-btn text-blue-600 hover:text-blue-800 font-medium flex items-center" data-project="gueswi-chatwoot">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Project 3: Cyrons -->
+    <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      <div class="relative h-48 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1488998427799-e3362cec87c3?auto=format&fit=crop&w=1080&q=80" alt="Cyrons Donation Platform" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <span class="text-white font-semibold px-4 py-2">Donations • Platform</span>
+        </div>
+      </div>
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2 text-gray-800">Cyrons</h3>
+        <p class="text-gray-600 mb-4">A secure donation platform designed to simplify the giving experience and provide reliable support for nonprofit campaigns.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">PostgreSQL</span>
+        </div>
+        <button class="project-details-btn text-blue-600 hover:text-blue-800 font-medium flex items-center" data-project="cyrons">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    
+    <!-- Project 4: Kwayga -->
+    <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:scale-105">
+      <div class="relative h-48 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1080&q=80" alt="Kwayga B2B Platform" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <span class="text-white font-semibold px-4 py-2">B2B • Food Supply</span>
+        </div>
+      </div>
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2 text-gray-800">Kwayga</h3>
+        <p class="text-gray-600 mb-4">B2B platform connecting European supermarkets with verified food suppliers through intelligent sourcing and real-time discovery.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Ruby on Rails</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">React.js</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">PostgreSQL</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Sidekiq</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">REST APIs</span>
+        </div>
+        <button class="project-details-btn text-blue-600 hover:text-blue-800 font-medium flex items-center" data-project="kwayga">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    
+    <!-- Project 5: Sentiment Analysis -->
+    <!-- <div class="bg-white rounded-lg overflow-hidden shadow-lg transition-transform duration-300 hover:transform hover:scale-105">
+      <div class="relative h-48 overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1473444697319-a8486dfb40df?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w2MzQ2fDB8MXxzZWFyY2h8NXx8cm9iYmVyeSUyNTIwZGV0ZWN0aW9uJTI1MjBpbnRlcmZhY2UlMjUyMHNlY3VyaXR5JTI1MjB0ZWNobmljYWx8ZW58MHwwfHx8MTc0NzkwNjk4OHww&amp;ixlib=rb-4.1.0&amp;q=80&amp;w=1080" alt="Sentiment Analysis" class="w-full h-full object-cover">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
+          <span class="text-white font-semibold px-4 py-2">NLP • Data Analysis</span>
+        </div>
+      </div>
+      <div class="p-6">
+        <h3 class="text-xl font-bold mb-2 text-gray-800">Sentiment Analysis on Amazon Reviews</h3>
+        <p class="text-gray-600 mb-4">Uses NLTK to process and analyze sentiment in large-scale Amazon product reviews.</p>
+        <div class="flex flex-wrap gap-2 mb-4">
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Python</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">NLTK</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Pandas</span>
+          <span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full">Scikit-learn</span>
+        </div>
+        <button class="project-details-btn text-blue-600 hover:text-blue-800 font-medium flex items-center" data-project="sentiment-analysis">
+          View Details
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-1" viewBox="0 0 20 20" fill="currentColor">
+            <path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+          </svg>
+        </button>
+      </div>
+    </div> -->
+  </div>
+</div>
+
+<!-- Project Details Modal -->
+<div id="project-modal" class="fixed inset-0 z-50 flex items-center justify-center hidden" aria-modal="true" aria-hidden="true">
+  <div class="fixed inset-0 bg-black bg-opacity-50 transition-opacity" id="modal-overlay"></div>
+  <div class="relative bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto mx-4 transform transition-all">
+    <div class="absolute top-4 right-4">
+      <button id="close-modal" class="text-gray-500 hover:text-gray-700 focus:outline-none">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </button>
+    </div>
+    <div class="p-6" id="modal-content">
+      <!-- Content will be dynamically inserted here -->
+    </div>
+  </div>
+</div>
+
+<script>
+  // Project details data
+  const projectDetails = {
+    'nanokard': {
+      title: 'Nanokard',
+      description: 'A fintech project that leverages blockchain for fast, secure payments and integrates with Stripe for seamless transactions.',
+      challenges: 'Ensuring blockchain transaction traceability and handling secure, high-speed payment processing.',
+      solution: 'Integrated blockchain with Rails and Stripe APIs to manage real-time transactions and reporting.',
+      technologies: ['Blockchain', 'Ruby on Rails', 'React.js', 'PostgreSQL', 'Stripe'],
+      features: [
+        'Secure blockchain-based payments',
+        'Stripe integration for fiat handling',
+        'Fast and traceable transaction processing',
+        'Admin dashboard for transaction insights',
+        'Mobile-ready architecture'
+      ],
+      image: 'https://images.unsplash.com/photo-1642691213484-34b77c6d1d3d?auto=format&fit=crop&w=1080&q=80'
+    },
+    'gueswi-chatwoot': {
+      title: 'Gueswi Chatwoot',
+      description: 'A full-featured support platform similar to Chatwoot, enabling businesses to manage customer conversations via chat, email, and social media.',
+      challenges: 'Real-time messaging, multi-channel support, and scalable user roles across conversations.',
+      solution: 'Implemented a Rails-based backend with a React.js frontend using WebSocket and Stripe for subscriptions.',
+      technologies: ['Ruby on Rails', 'React.js', 'PostgreSQL', 'Stripe', 'Webhooks'],
+      features: [
+        'Multichannel support dashboard',
+        'User notifications and triggers',
+        'Subscription management via Stripe',
+        'Real-time messaging with ActionCable',
+        'Customizable inbox and roles'
+      ],
+      image: 'https://images.unsplash.com/photo-1581093588401-5a4f39a61c1f?auto=format&fit=crop&w=1080&q=80'
+    },
+    'cyrons': {
+      title: 'Cyrons',
+      description: 'A secure and modern donation platform helping nonprofits manage campaigns and donor contributions with transparency.',
+      challenges: 'Handling sensitive financial data securely and offering real-time analytics.',
+      solution: 'Built encrypted transaction flows, recurring donation logic, and campaign tracking tools in Rails.',
+      technologies: ['Ruby on Rails', 'PostgreSQL'],
+      features: [
+        'Recurring and one-time donations',
+        'Campaign analytics dashboard',
+        'Secure transaction management',
+        'Donor profile and history',
+        'Admin access control and reports'
+      ],
+      image: 'https://images.unsplash.com/photo-1488998427799-e3362cec87c3?auto=format&fit=crop&w=1080&q=80'
+    },
+    'kwayga': {
+      title: 'Kwayga',
+      description: 'B2B platform transforming food supply chains by connecting European supermarkets with verified suppliers.',
+      challenges: 'Efficient search across thousands of suppliers and handling complex sourcing workflows.',
+      solution: 'Implemented intelligent supplier matching, Sidekiq for background jobs, and secure API integrations.',
+      technologies: ['Ruby on Rails', 'React.js', 'PostgreSQL', 'Sidekiq', 'REST APIs'],
+      features: [
+        'Smart supplier discovery',
+        'Real-time messaging between buyers & suppliers',
+        'Admin supplier onboarding workflows',
+        'Search and filtering with custom scoring',
+        'API-integrated document exchange'
+      ],
+      image: 'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1080&q=80'
+    }
+  };
+  
+  // Modal functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const modal = document.getElementById('project-modal');
+    const modalContent = document.getElementById('modal-content');
+    const closeModal = document.getElementById('close-modal');
+    const modalOverlay = document.getElementById('modal-overlay');
+    const projectButtons = document.querySelectorAll('.project-details-btn');
+    let lastFocusedElement = null;
+    
+    // Open modal function
+    function openModal(projectId) {
+      lastFocusedElement = document.activeElement;
+      const project = projectDetails[projectId];
+      
+      if (!project) return;
+      
+      // Generate modal content
+      let technologiesHTML = '';
+      project.technologies.forEach(tech => {
+        technologiesHTML += `<span class="px-2 py-1 text-xs bg-blue-100 text-blue-800 rounded-full mr-2 mb-2 inline-block">${tech}</span>`;
+      });
+      
+      let featuresHTML = '';
+      project.features.forEach(feature => {
+        featuresHTML += `<li class="mb-1 flex items-start">
+          <svg class="h-5 w-5 text-green-500 mr-2 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+          </svg>
+          ${feature}
+        </li>`;
+      });
+      
+      modalContent.innerHTML = `
+        <div>
+          <img src="${project.image}" alt="${project.title}" class="w-full h-64 object-cover rounded-lg mb-6">
+          <h2 class="text-2xl font-bold mb-4 text-gray-800">${project.title}</h2>
+          
+          <div class="mb-6">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800">Overview</h3>
+            <p class="text-gray-700">${project.description}</p>
+          </div>
+          
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+            <div>
+              <h3 class="text-lg font-semibold mb-2 text-gray-800">Challenges</h3>
+              <p class="text-gray-700">${project.challenges}</p>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold mb-2 text-gray-800">Solution</h3>
+              <p class="text-gray-700">${project.solution}</p>
+            </div>
+          </div>
+          
+          <div class="mb-6">
+            <h3 class="text-lg font-semibold mb-2 text-gray-800">Technologies</h3>
+            <div class="flex flex-wrap">${technologiesHTML}</div>
+          </div>
+          
+          <div>
+            <h3 class="text-lg font-semibold mb-2 text-gray-800">Key Features</h3>
+            <ul class="space-y-1">${featuresHTML}</ul>
+          </div>
+        </div>
+      `;
+      
+      // Show modal
+      modal.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+      
+      // Set focus to the modal
+      modal.focus();
+      
+      // Trap focus in modal
+      trapFocus(modal);
+    }
+    
+    // Close modal function
+    function closeModalFunc() {
+      modal.classList.add('hidden');
+      document.body.style.overflow = '';
+      
+      // Return focus to the element that opened the modal
+      if (lastFocusedElement) {
+        lastFocusedElement.focus();
+      }
+    }
+    
+    // Add event listeners to project buttons
+    projectButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        const projectId = this.getAttribute('data-project');
+        openModal(projectId);
+      });
+    });
+    
+    // Close modal when clicking the close button
+    closeModal.addEventListener('click', closeModalFunc);
+    
+    // Close modal when clicking the overlay
+    modalOverlay.addEventListener('click', closeModalFunc);
+    
+    // Close modal when pressing ESC key
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape' && !modal.classList.contains('hidden')) {
+        closeModalFunc();
+      }
+    });
+    
+    // Focus trap function
+    function trapFocus(element) {
+      const focusableElements = element.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+      const firstFocusableElement = focusableElements[0];
+      const lastFocusableElement = focusableElements[focusableElements.length - 1];
+      
+      element.addEventListener('keydown', function(e) {
+        if (e.key === 'Tab') {
+          // If shift + tab and focus is on first element, move to last element
+          if (e.shiftKey && document.activeElement === firstFocusableElement) {
+            e.preventDefault();
+            lastFocusableElement.focus();
+          }
+          // If tab and focus is on last element, move to first element
+          else if (!e.shiftKey && document.activeElement === lastFocusableElement) {
+            e.preventDefault();
+            firstFocusableElement.focus();
+          }
+        }
+      });
+    }
+  });
+</script>
+</section>
+
+<section id="skills" class="py-16 bg-gray-100">
+<div class="container mx-auto px-4">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Skills</h2>
+  
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+    <!-- Left Column: Technical Skills -->
+    <div>
+      <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">Programming Languages</h3>
+        
+        <div class="space-y-4">
+          <!-- Ruby -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">Ruby</span>
+              <span class="text-blue-600">95%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 95%"></div>
+            </div>
+          </div>
+          
+          <!-- JavaScript -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">JavaScript</span>
+              <span class="text-blue-600">80%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 80%"></div>
+            </div>
+          </div>
+          
+          <!-- python -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">python</span>
+              <span class="text-blue-600">70%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 70%"></div>
+            </div>
+          </div>
+          
+          <!-- C/C++ -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">C/C++</span>
+              <span class="text-blue-600">65%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 65%"></div>
+            </div>
+          </div>
+          
+          <!-- PHP -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">PHP</span>
+              <span class="text-blue-600">60%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-blue-600 h-2.5 rounded-full" style="width: 60%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-lg shadow-md p-6">
+        <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">Frameworks</h3>
+        
+        <div class="space-y-4">
+          <!-- Rails -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">Rails</span>
+              <span class="text-green-600">90%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-green-600 h-2.5 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+          
+          <!-- FastAPI -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">FastAPI</span>
+              <span class="text-green-600">85%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-green-600 h-2.5 rounded-full" style="width: 85%"></div>
+            </div>
+          </div>
+          
+          <!-- Node.js -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">Node.js</span>
+              <span class="text-green-600">65%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-green-600 h-2.5 rounded-full" style="width: 65%"></div>
+            </div>
+          </div>
+          
+          <!-- React -->
+          <div>
+            <div class="flex justify-between mb-1">
+              <span class="font-medium text-gray-700">React</span>
+              <span class="text-green-600">70%</span>
+            </div>
+            <div class="w-full bg-gray-200 rounded-full h-2.5">
+              <div class="bg-green-600 h-2.5 rounded-full" style="width: 70%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right Column: More Skills and Specialties -->
+    <div>
+      <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">Databases</h3>
+        
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+            <span class="text-gray-700">PostgreSQL</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+            <span class="text-gray-700">MongoDB</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+            <span class="text-gray-700">MsSQL</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-purple-600 rounded-full mr-3"></div>
+            <span class="text-gray-700">ElasticSearch</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+        <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">Libraries</h3>
+        
+        <div class="grid grid-cols-2 gap-4">
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">Pandas</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">NumPy</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">NLTK</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">Scikit-learn</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">Selenium</span>
+          </div>
+          <div class="flex items-center p-3 border rounded-lg">
+            <div class="w-3 h-3 bg-yellow-500 rounded-full mr-3"></div>
+            <span class="text-gray-700">BeautifulSoup</span>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-2 gap-8">
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">DevOps</h3>
+          
+          <div class="space-y-3">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">Docker</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">GitHub Actions</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">AWS S3</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">Redis</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-blue-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">Celery</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg shadow-md p-6">
+          <h3 class="text-xl font-bold mb-6 text-gray-800 border-b pb-2">AI/ML</h3>
+          
+          <div class="space-y-3">
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">LangChain</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">RAG</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">Whisper</span>
+            </div>
+            <div class="flex items-center">
+              <svg class="w-5 h-5 text-purple-600 mr-2" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+              </svg>
+              <span class="text-gray-700">GPT APIs</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Specialties -->
+  <div class="mt-12">
+    <h3 class="text-2xl font-bold text-center mb-8 text-gray-800">Specialties</h3>
+    
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-blue-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">Backend APIs</h4>
+      </div>
+      
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-green-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">Web Scraping</h4>
+      </div>
+      
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-yellow-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">Automation</h4>
+      </div>
+      
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-purple-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-purple-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">NLP</h4>
+      </div>
+      
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-red-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">Data Pipelines</h4>
+      </div>
+      
+      <div class="bg-white p-4 rounded-lg shadow-md text-center">
+        <div class="bg-indigo-100 p-3 rounded-full inline-flex items-center justify-center w-16 h-16 mb-4">
+          <svg class="w-8 h-8 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path>
+          </svg>
+        </div>
+        <h4 class="font-bold text-gray-800">AI Integration</h4>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="education" class="py-16 bg-white">
+<div class="container mx-auto px-4">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Education</h2>
+  
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <!-- Left side: Education details -->
+    <div class="bg-gray-50 rounded-lg shadow-lg p-8">
+      <div class="flex items-start mb-6">
+        <div class="bg-blue-600 p-3 rounded-lg mr-4">
+          <svg class="w-6 h-6 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 14l9-5-9-5-9 5 9 5z"></path>
+            <path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z"></path>
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 14l9-5-9-5-9 5 9 5zm0 0l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14zm-4 6v-7.5l4-2.222"></path>
+          </svg>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold text-gray-800">BS Software Engineering</h3>
+          <p class="text-blue-600 font-medium">PUCIT Lahore</p>
+          <p class="text-gray-600 text-sm">Graduated 2021</p>
+        </div>
+      </div>
+      
+      <div class="mb-8">
+        <h4 class="text-lg font-semibold mb-3 text-gray-800">Key Courses</h4>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="bg-white p-3 rounded-lg shadow-sm flex items-center">
+            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+            <span class="text-gray-700">Algorithms</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg shadow-sm flex items-center">
+            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+            <span class="text-gray-700">Databases</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg shadow-sm flex items-center">
+            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+            <span class="text-gray-700">Artificial Intelligence</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg shadow-sm flex items-center">
+            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+            <span class="text-gray-700">Machine Learning</span>
+          </div>
+          <div class="bg-white p-3 rounded-lg shadow-sm flex items-center">
+            <div class="w-2 h-2 bg-blue-600 rounded-full mr-2"></div>
+            <span class="text-gray-700">Operating Systems</span>
+          </div>
+        </div>
+      </div>
+      
+      <div>
+        <h4 class="text-lg font-semibold mb-3 text-gray-800">Skills Developed</h4>
+        <ul class="space-y-2 text-gray-700">
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Problem-solving and algorithmic thinking</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Software design and architecture principles</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Database design and optimization</span>
+          </li>
+          <li class="flex items-start">
+            <svg class="w-5 h-5 text-green-500 mr-2 mt-0.5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path>
+            </svg>
+            <span>Machine learning fundamentals</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+<section id="contact" class="py-16 bg-gray-50">
+<div class="container mx-auto px-4">
+  <h2 class="text-3xl md:text-4xl font-bold text-center mb-12 text-gray-800">Contact</h2>
+  <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <div class="space-y-8">
+      <div class="bg-white rounded-lg shadow-lg p-8">
+        <h3 class="text-xl font-bold mb-6 text-gray-800">Contact Information</h3>
+        <div class="space-y-4">
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500 mb-1">Email</p>
+              <a href="mailto:mhamzahaniftoor@gmail.com" class="text-gray-800 hover:text-blue-600 transition">mhamzahaniftoor@gmail.com</a>
+            </div>
+          </div>
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                  d="M3 5a2 2 0 012-2h1.586a1 1 0 01.707.293l2.414 2.414a1 1 0 010 1.414L8.121 9.707a11.037 11.037 0 005.172 5.172l2.586-2.586a1 1 0 011.414 0l2.414 2.414a1 1 0 01.293.707V19a2 2 0 01-2 2h-1c-9.941 0-18-8.059-18-18V5z">
+                </path>
+              </svg>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500 mb-1">Phone</p>
+              <a href="tel:+923064019956" class="text-gray-800 hover:text-blue-600 transition">+92 307 4348651</a>
+            </div>
+          </div>
+          
+          <div class="flex items-start">
+            <div class="bg-blue-100 p-3 rounded-full mr-4">
+              <svg class="w-5 h-5 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+              </svg>
+            </div>
+            <div>
+              <p class="text-sm text-gray-500 mb-1">Location</p>
+              <p class="text-gray-800">Lahore, Pakistan</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <h4 class="font-medium text-gray-800 mb-4">Connect with me</h4>
+          <div class="flex space-x-4">
+            <a href="https://github.com/mhamzahaniftoor" target="_blank" rel="noopener noreferrer" class="bg-gray-100 hover:bg-gray-200 p-3 rounded-full transition">
+              <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
+              </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/mhamzahaniftoor/" target="_blank" rel="noopener noreferrer" class="bg-gray-100 hover:bg-gray-200 p-3 rounded-full transition">
+              <svg class="w-5 h-5 text-gray-700" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"></path>
+              </svg>
+            </a>
+          </div>
+        </div>
+        
+        <div class="mt-8">
+          <a href="./resources/cv.pdf" download="cv.pdf" class="inline-flex items-center px-4 py-2 border border-blue-600 text-blue-600 rounded-lg hover:bg-blue-600 hover:text-white transition duration-300">
+            <svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+            </svg>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const contactForm = document.getElementById('contact-form');
+    const formSuccess = document.getElementById('form-success');
+    const formError = document.getElementById('form-error');
+    
+    contactForm.addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      // Simulate form submission
+      const formData = new FormData(contactForm);
+      const formValues = Object.fromEntries(formData.entries());
+      
+      // Basic validation
+      if (!formValues.name || !formValues.email || !formValues.subject || !formValues.message) {
+        formError.classList.remove('hidden');
+        formSuccess.classList.add('hidden');
+        return;
+      }
+      
+      // Simulate successful submission
+      contactForm.reset();
+      formSuccess.classList.remove('hidden');
+      formError.classList.add('hidden');
+      
+      // Hide success message after 5 seconds
+      setTimeout(() => {
+        formSuccess.classList.add('hidden');
+      }, 5000);
+    });
+  });
+</script>
+</section></div></mountpoint>
+    </main>
+
+    <!-- Core functionality scripts -->
+    <script>
+      // Initialize interactive elements
+      document.addEventListener('DOMContentLoaded', function() {
+        // Add interactive behaviors
+        const interactiveElements = document.querySelectorAll('.interactive-element');
+        interactiveElements.forEach(element => {
+          element.addEventListener('mouseenter', () => {
+            element.classList.add('hover');
+          });
+          element.addEventListener('mouseleave', () => {
+            element.classList.remove('hover');
+          });
+        });
+
+        // Initialize any dynamic content
+        const dynamicContent = document.querySelectorAll('[data-dynamic]');
+        dynamicContent.forEach(content => {
+          // Add fade-in animation
+          content.classList.add('fade-in');
+        });
+      });
+
+      // Handle navigation
+      function handleNavigation(event) {
+        const link = event.currentTarget;
+        if (link.hasAttribute('data-nav')) {
+          event.preventDefault();
+          const target = link.getAttribute('data-nav');
+          document.querySelector(target).scrollIntoView({ behavior: 'smooth' });
+        }
+      }
+
+      // Initialize navigation
+      document.querySelectorAll('[data-nav]').forEach(link => {
+        link.addEventListener('click', handleNavigation);
+      });
+    </script>
+
+    <!-- Body Scripts -->
+    <script id="body-scripts">
+      // This script tag will be replaced with actual scripts.body content
+      if (window.scripts && window.scripts.body) {
+        document.getElementById('body-scripts').outerHTML = window.scripts.body;
+      }
+    </script>
+ 
+<svg id="SvgjsSvg1001" width="2" height="0" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev" style="overflow: hidden; top: -100%; left: -100%; position: absolute; opacity: 0;"><defs id="SvgjsDefs1002"></defs><polyline id="SvgjsPolyline1003" points="0,0"></polyline><path id="SvgjsPath1004" d="M0 0 "></path></svg><div id="loom-companion-mv3" ext-id="liecbddmkiiihnedobmlmillhodjkdmb"><div id="shadow-host-companion"></div></div><div style="position: relative;" id="zp-9-3-8-apollo-root-apollo_everywhere"></div></body></html>
